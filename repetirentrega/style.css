@@ -1,0 +1,105 @@
+body {
+    width: 1400px;
+    height: 3264px;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin: 0px auto;
+}
+
+#headerdiv {
+    width: 1111px;
+    height: 163px;
+    margin: 0px auto;
+    padding-top: 60px;
+    
+}
+
+#headerdiv1 {
+    display: flex;
+}
+
+.imagen {
+    margin : 15px;
+    
+}
+
+#headerdiv2 {
+    max-width: 751px;
+    padding: 30px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#headerdiv2 a {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #2B2B2B;
+    letter-spacing: 5.45px;
+    text-align: center;
+    margin : 15px;
+
+}
+
+#headerdiv2 a:hover {
+    color: #FF0000;
+}
+
+#fondonegro {
+    width: 1401px;
+    height: 644px;
+    background-image: url('img/RectangleXL.svg');
+    display: flex;
+}
+
+#bloque0 {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 200px;
+}
+
+#parrafo1 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 539px;
+    color: white;
+}
+
+#bloque2 {
+    display: flex;
+    color: white;
+}
+
+#tomate {
+    margin: 10px;
+    height: 101px;
+    width: 101px;
+}
+
+#etiqueta {
+    color: black;
+    font-family: Lato;
+    font-size: 11px;
+    background-color: white;
+    padding: 10px;
+    width: 65px;
+    letter-spacing: 5px;
+}
+
+.margin {
+    margin-right: 10px;
+}
+
+#bloque10 {
+    width: 349px;
+    height: 653px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 40px;
+    padding-right: 60px;
+    border: black 1px solid;
+}

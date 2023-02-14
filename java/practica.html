@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Ejercicio 1</h1>
+    <script>
+        function comparar(a,b) {;
+            if (a>b) {;
+                document.write(a) ;
+            }
+            else if (a<b) {;
+                document.write(b) ;
+            }
+            else {;
+                document.write("Son iguales") ;
+            }   ;
+        }
+        comparar(5,5) ;
+    </script>
+    <h1>Ejercicio2</h1>
+
+
+    <script>
+        var piramide ='';
+        for(x=0; x<=10; x++)
+        {
+        for (y=0; y<x; y++)
+        {
+        piramide=piramide+("*"); 
+        }
+        console.log(piramide);
+        piramide=''; 
+        }
+    </script>
+
+    <h1>Ejercicio3</h1>
+
+    <script>
+        var monedas = [50,25,5,2,1];
+        function dividirenmonedas(numero) {
+            var resultado = "";
+            var restantes = numero;
+            for (var i = 0; i < monedas.length; i++) {
+                var moneda = monedas[i]; 
+                while (restantes >= moneda) {
+                    resultado += moneda + " ";
+                    restantes -= moneda;
+                }
+            }
+            return resultado;
+        }
+        document.write(dividirenmonedas(123));
+    </script>
+    <h1>Ejercicio 4</h1>
+    <script>
+        var i = 5;
+        while (i>0) {
+        if (i%2==0) {
+            document.write(i + " es par <br>");
+        }
+        else {
+            document.write(i + " es impar <br>");
+        }
+            i--;
+        }
+        
+            
+    </script>
+
+    <h1>Ejercicio 5</h1>
+    <script>
+        var array1 = [13,21,3,42,5,6,79,8,92,10];
+
+        function ordenar(array) {
+            var intercambio;
+            var k = a.length-1;
+            var j = 0;
+            var x=a;
+            do {
+                intercambio = false;
+                for (var i=0; i <k; i++)
+                {
+                    if (x[i]<x[i+1])
+                    {
+                        var temp = x[i];
+                        x[i] = x[i+1];
+                        x[i+1] = temp;
+                        intercambio = true;
+                    }
+                }
+                k--;
+            }
+            while (intercambio);
+            return x;
+        }
+
+        document.write(ordenar(array1));
+
+    </script>
+
+    <script>
+        function exponente(a,b) {
+            if (a!=0 && b!=0) {
+                var resultado = a**b;
+                document.write(resultado);
+            }
+            else {
+                document.write("No se puede realizar la operación");
+            }
+        }
+
+        exponente(2,3);
+        
+    </script>
+
+    
+</body>
+</html>
