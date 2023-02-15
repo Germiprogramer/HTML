@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 1</title>
+    
+</head>
+<body>
+    <h1>Ejercicio 7</h1>
+    <button id="boton" type="submit" onclick="generarNumeros()">Pulsame</button>
+    <select id="elementos">
+
+    </select>
+    <script>
+        function generarNumeros() {
+            var numeros = document.getElementById("elementos");
+
+            var opciones = "";
+
+            for (var i=0; i<10; i++) {
+                opciones += "<option>" + i + "</option>";
+            }
+
+            elementos.innerHTML = opciones;
+        }
+    </script>
+</body>
